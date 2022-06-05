@@ -1,4 +1,4 @@
-![Photo](cv-photo.jpg)|
+![Photo](img/cv-photo.jpg)|
  :-:                  |
 
 ## DENIS GUSSER
