@@ -10,56 +10,98 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,500;0,700;1,600&display=swap"
         rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Hello, World</title>
+    <title>CV</title>
 </head>
 
 <body>
-    <div id="wrapper">
-        <header>
-            <nav></nav>
-            <a class="photo"><img src="img/ava.jpg" alt="My photo" width="250" height=auto></a>
-            <section class="name-title">
-                <h1>Denis Gusser</h1>
+
+    <header class="header">
+        <div class="container">
+            <nav class="nav font-montserrat">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                    <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                </ul>
+            </nav>
+            <a class="photo"><img src="./assets/img/ava.jpg" alt="My photo" width=250px height=auto></a>
+            <section class="section name-title">
+                <h1><span class="font-montserrat bold">DENIS</span> <span class="font-montserrat medium">GUSSER</span>
+                </h1>
                 <h3>Junior web developer</h3>
             </section>
-            <section class="about-me">
-                <h2>About me</h2>
+            <section class="section about-me">
+                <h2 class="section-title">About me</h2>
                 <p>What about me?</p>
             </section>
-        </header>
-        <aside>
-            <section>
-                <h2>Contacts</h2>
+        </div>
+    </header>
+    <div class="main-container">
+        <aside class="aside">
+            <section class="section">
+                <h2 class="section-title">Contacts</h2>
                 <h3>Phone</h3>
                 <p>+7 913 133 3911</p>
                 <h3>Email</h3>
                 <p>gusser.denis@gmail.com</p>
             </section>
-            <section>
-                <h2>Soft skill</h2>
+            <section class="section">
+                <h2 class="section-title">Soft skill</h2>
 
 
             </section>
-            <section>
-                <h2>Hard skill</h2>
+            <section class="section">
+                <h2 class="section-title">Hard skill</h2>
             </section>
-            <section>
-                <h2>Language</h2>
+            <section class="section">
+                <h2 class="section-title">Language</h2>
             </section>
+
         </aside>
-        <main>
+        <main class="main">
+            <div class="container">
+                <section class="section">
+                    <h2 class="section-title">sadfsdfsdf</h2>
+                </section>
+                <section class="section">
+                    <h2 class="section-title">asdfsdfsdf</h2>
+                </section>
+                <section class="section">
+                    <h2 class="section-title">sdfsdfsadf</h2>
+                </section>
+                <section class="section">
+                    <h2 class="section-title">sdfsdfsadf</h2>
+                </section>
+                <section class="section">
+                    <h2 class="section-title">asdfsadfsadf</h2>
+                </section>
+            </div>
 
         </main>
     </div>
-    <footer>
-        <a href="https://github.com/dhusser">
-            <img src="icons/github.svg" alt="github ico" class="foot-img">
-        </a>
-        <p>2022</p>
-        <a href="https://rs.school/js/">
-            <img src="icons/rs_school_js.svg" alt="rsschool ico" class="foot-img">
-        </a>
+
+    <footer class="footer">
+        <div class="container">
+            <section class="section">
+                <a href="https://github.com/dhusser">
+                    <img src="./assets/swg/github.svg" alt="github ico" class="foot-img">
+                </a>
+            </section>
+            <section class="section">
+                <p>2022</p>
+            </section>
+            <section class="section">
+                <a href="https://rs.school/js/">
+                    <img src="./assets/swg/rs_school_js.svg" alt="rsschool ico" class="foot-img">
+                </a>
+            </section>
+
+        </div>
     </footer>
 </body>
 

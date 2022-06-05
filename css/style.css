@@ -1,7 +1,44 @@
-/*font-family: 'Lato', sans-serif;
-font-family: 'Montserrat', sans-serif;*/
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+    line-height: 1.15px;
+}
+
+div {
+    display: block;
+}
+
+.font-lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.font-montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bold {
+    font-weight: 700;    
+}
+
+.semibold {
+    font-weight: 600;
+}
+
+.medium {
+    font-weight: 500;   
+}
+
+.normal {
+    font-weight: 400;
+}
 
 body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     font-family: 'Lato', sans-serif;
     font-size: 9pt;
     font-weight: 600;
@@ -10,20 +47,46 @@ body {
     margin: 0;
 }
 
-p {
-    margin: 10px 0;
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    overflow: hidden;
 }
 
-#wrapper {
+.nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+}
+
+.nav-item a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.nav-item a:hover {
+    color: #FECA00;
+}
+
+.nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    transition: .3s;
+}
+
+/* .wrapper {
     max-width: 960px;
     margin: auto;
-}
+} */
 
-header {
+.header {
+    display: block;
     padding: 20px 0;
 }
 
-header section {
+.header .section {
     margin-left: 250px;
     padding-bottom: 50px;
 }
@@ -33,23 +96,15 @@ header section {
 }
 
 .name-title {
-    font-family: 'Montserrat', sans-serif;
+    font-size: 24pt;
+    text-align: left;
+    padding: 50px;
     background-color: #FECA00;
     color: #313131;
 }
 
-.name-title.h1 {
-    font-size: 24pt;
-    font-weight: 700;
-}
-
-.name-title.h2 {
-    font-size: 12pt;
-    font-weight: 600;
-}
-
 aside {
-    float: left;
+    /*float: left;*/
     width: 250px;
     background-color: #25262A;
 }
@@ -74,13 +129,39 @@ aside section p {
     font-weight: 300;
 }
 
+.main-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-container .aside .container {
+
+    width: 25%;
+}
+
+.main-container .main .container {
+    width: 75%;
+}
+
 footer {
-    width: 1000px;
+    display: block;
+    
     font-family: 'Montserrat', sans-serif;
     color: #000000;
     background-color: #FFFFFF;
 }
 
+footer .container {
+    display: flex;
+}
+
 .foot-img {
     height: 30px;
+}
+
+header,
+main,
+footer,
+aside {
+    border: 1px solid red;
 }
