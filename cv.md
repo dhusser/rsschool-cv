@@ -40,7 +40,7 @@ alert( 'Hello, world!' );
 ### WORK EXPERIENCE
 ---
     2018 — Present
-**Судебный эксперт/специалист**
+**Forensic expert/specialist**
 *Center for Independent Expertise and Law / Kemerovo*
 
 Conducting pre-trial and judicial research by type:
