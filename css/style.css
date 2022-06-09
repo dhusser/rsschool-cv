@@ -12,10 +12,6 @@
     font-style: normal;
 }
 
-* {
-    /* box-sizing: border-box; */
-}
-
 html {
     scroll-behavior: smooth;
     background-color: #D6D6D6;
