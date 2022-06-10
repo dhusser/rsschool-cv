@@ -94,4 +94,4 @@ Economics and management at the enterprise (in mechanical engineering),
 #### Languages
 
 Russian - C2, English - A2, German - B1
----
+
