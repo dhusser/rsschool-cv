@@ -1,12 +1,255 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello, World</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Montserrat:ital,wght@0,500;0,700;1,600&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <title>CV</title>
 </head>
 <body>
-    Fix error 403
+  <header class="header">
+    <!-- <div class="container"> -->
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#work" class="nav-link">Work experience</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+          <li class="nav-item"><a href="#personal-qualities" class="nav-link">Qualities</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+        </ul>
+      </nav>
+      <div class="head-container">
+        <div class="photo-container">
+          <img src="./assets/img/cv-photo.jpg" alt="My photo" class="cv-photo">
+        </div>
+        <div class="name-container">
+          <section class="cv-name">
+            <h1>
+              <span class="bold">Denis</span> <span class="medium">Gusser</span>
+            </h1>
+            <p class="semibold">Junior web developer</p>
+          </section>
+          <section class="section">
+            <h2 class="section-title">About me</h2>
+            <p>Regularly learn something new, easy to learn, self-organized. I have critical thinking skills. I can work
+              effectively as an individual and in the team.</p>
+          </section>
+        </div>
+      </div>
+    <!-- </div> -->
+  </header>
+  <main class="main">
+    <aside class="aside">
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <dl class="dl">
+          <dt class="dt-contacts">Phone:</dt>
+          <dd class="dd-contacts">
+            <a href="tel:+79131333911" target="_blank" class="icon icon-phone">&nbsp+7&nbsp913&nbsp133&nbsp3911</a>
+          </dd>
+          <dt class="dt-contacts">Email:</dt>
+          <dd class="dd-contacts">
+            <a href="mailto:gusser.denis@gmail.com" target="_blank" class="icon icon-mail">
+              gusser.denis@gmail.com</a>
+          </dd>
+          <dt class="dt-contacts">WhatsApp:</dt>
+          <dd class="dd-contacts">
+            <a href="https://wa.me/+79131333911" target="_blank" class="icon icon-wapp">&nbspcontact me by whatsapp</a>
+          </dd>
+          <dt class="dt-contacts">Telegram:</dt>
+          <dd class="dd-contacts">
+            <a href="mailto:gusser.denis@gmail.com" target="_blank" class="icon icon-telegram">&nbspcontact me by
+              telegram</a>
+          </dd>
+        </dl>
+      </section>
+      <section class="section">
+        <h2 class="section-title" id="personal-qualities">Personal qualities</h2>
+        <ul class="quailities-list">
+          <li class="personal-qualities-item">Diligent</li>
+          <li class="personal-qualities-item">Eager to learn</li>
+          <li class="personal-qualities-item">Organized</li>
+          <li class="personal-qualities-item">Punctual</li>
+          <li class="personal-qualities-item">Conscientious</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title" id="skills">Special skills</h2>
+        <ul class="skill-list">
+          <li class="skills-item icon icon-html">&nbspHTML</li>
+          <li class="skills-item icon icon-css">&nbspCSS</li>
+          <li class="skills-item icon icon-php">&nbspPHP</li>
+          <li class="skills-item icon icon-js">&nbspJavaScript</li>
+          <li class="skills-item icon icon-nodejs">&nbspNODE.js</li>
+          <li class="skills-item icon icon-react">&nbspReact</li>
+          <li class="skills-item icon icon-py">&nbspPython</li>
+          <li class="skills-item icon icon-git">&nbspGit</li>
+          <li class="skills-item icon icon-gh">&nbspGitHub</li>
+          <li class="skills-item icon icon-linterminal">&nbspLinux terminal</li>
+          <li class="skills-item icon icon-pshell">&nbspPowerShell</li>
+          <li class="skills-item icon icon-docker">&nbspDocker</li>
+          <li class="skills-item icon icon-figma">&nbspFigma</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h2 class="section-title">Language skills</h2>
+        <ul class="lang-list">
+          <li class="lang-item icon icon-lang">&nbspRussian - native</li>
+          <li class="lang-item icon icon-lang">&nbspEnglish - A2 (studying B1)</li>
+          <li class="lang-item icon icon-lang">&nbspGerman - A2 (B1 studieren)</li>
+        </ul>
+      </section>
+    </aside>
+    <div class="container"> 
+      <section class="section">
+        <h2 class="section-title">WORK EXPERIENCE</h2>
+        <table class="table lato">
+          <tr>
+            <td class="td">
+              <p class="semibold">2018 — Present</p>
+              <p class="semibold">Center for Independent Expertise and Law / Kemerovo</p>
+            </td>
+            <td class="td">
+              <h2>Forensic expert/specialist</h2>
+              <p>Conducting pre-trial and judicial research by type:</p>
+              <ul class="ul">
+                <li class="main-item">computer-technical expertise (including the study of software
+                  operation on
+                  Windows, Linux, Android, IOS);</li>
+                <li class="main-item">merchandising expertise (including the study of pre-installed
+                  software on
+                  Windows, Linux, Android, IOS);</li>
+                <li class="main-item">construction and technical expertise;</li>
+                <li class="main-item">engineering expertise.</li>
+              </ul>
+              <p>Created and administered the website of the center of independent expertise and law: <a
+                  href="https://kem-expert.ru" class="link">kem-expert.ru</a></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <p class="semibold">2015 — 2021</p>
+              <p class="semibold">Service center "Device" / Kemerovo</p>
+            </td>
+            <td class="td">
+              <h2>Electronic engineer</h2>
+              <p>Repair of digital and household appliances: software, modular, component.</p>
+              <p>Created and administered the service center website: <a href="https://devicerussia.ru"
+                  class="link">devicerussia.ru</a></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <p class="semibold">2012 — 2015</p>
+              <p class="semibold">Kemerovo DSK / Kemerovo</p>
+            </td>
+            <td class="td">
+              <h2>Сivil engineer</h2>
+              <p></p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <p class="semibold">2011</p>
+              <p class="semibold">Municipal Property Management Committee / Kemerovo</p>
+            </td>
+            <td class="td">
+              <h2>Economist of the Municipal Property Registry Department</h2>
+              <p></p>
+            </td>
+          </tr>
+        </table>
+
+      </section>
+      <section class="section">
+        <h2 class="section-title" id="education">EDUCATION</h2>
+        <table class="table">
+          <tr>
+            <td class="td">
+              <p class="semibold">2021</p>
+              <p class="semibold">Open Academy of Professional Education</p>
+            </td>
+            <td class="td">
+              <h2>Builder-expert</h2>
+              <p>Judicial construction and technical and cost expertise of real estate objects</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <p class="semibold">2018 — 2019</p>
+              <p class="semibold">Plekhanov Russian University of Economics</p>
+            </td>
+            <td class="td">
+              <h2>Commodity Expert</h2>
+              <p>Commodity research and examination of goods (by application)</p>
+            </td>
+          </tr>
+          <tr>
+            <td class="td">
+              <p class="semibold">2005 — 2010</p>
+              <p class="semibold">Kuzbass State Technical University</p>
+            </td>
+            <td class="td">
+              <h2>Engineer-economist</h2>
+              <p>Economics and management at the enterprise (in mechanical engineering)</p>
+            </td>
+          </tr>
+        </table>
+      </section>
+      <section class="section">
+        <h2 class="section-title" id="courses">Courses</h2>
+        <dl>
+          <dt class="courses-title">The Rolling Scopes School</dt>
+          <dd class="courses-description">JS/FE Pre-School 2022Q2 (now)</dd>
+          <dd class="courses-description">NodeJS 2022Q2 (now)</dd>
+          <dt class="courses-title">Yandex.Practikum</dt>
+          <dd class="courses-description">Python Developer</dd>
+          <dd class="courses-description">QA Engineer</dd>
+          <dd class="courses-description">React Developer</dd>
+        </dl>
+      </section>
+      <section class="section">
+        <h2 class="section-title" id="code">Code examples:</h2>
+        <code>
+          to be continued...
+        </code>
+      </section>
+    </div>
+  </main>
+  <footer class="footer">
+      <div class="foot-container">
+        <section class="section">
+          <p class="bold">My GitHub -&nbsp</p>
+        </section>
+        <section class="section">
+          <a href="https://github.com/dhusser" alt="my github" class="foot-item icon icon-github" title="My Github"></a>
+        </section>
+      </div>
+      <div class="foot-container">
+        <section class="section">
+          <p class="bold">Created by D. Husser, 2022</p>
+        </section>
+      </div>
+      <div class="foot-container">
+        <section class="section">
+          <a href="https://rs.school/js/">
+            <img src="./assets/swg/rs_school_js.svg" alt="rsschool ico" class="foot-item"
+              title="The Rolling Scopes School">
+          </a>
+        </section>
+        <section class="section">
+          <p class="bold">&nbsp- RS School</p>
+        </section>
+      </div>
+  </footer>
 </body>
 </html>

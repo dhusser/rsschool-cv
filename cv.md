@@ -1,20 +1,23 @@
-![Photo](cv-photo.jpg)|
- :-:                  |
+![Photo](./assets/img/cv-photo.jpg)|
 
 ## DENIS GUSSER
-##### CONTACTS:
+
+##### CONTACTS
+
 e-mail: gusser.denis@gmail.com
 tel: +7-913-133-3911
 ---
+
 #### ABOUT ME
+
 ---
 regularly learn something new, easy to learn, self-organized
 
-#### Skills:
+#### Skills
 
 HTML, CSS, PHP, JS, Python, Git, Linux, Docker.
 
-#### Сode examples:
+#### Сode examples
 
 *Python code:*
 
@@ -36,11 +39,14 @@ alert( 'Hello, world!' );
   echo "Hello, World!";
 ?>
 ```
+
 ---
+
 ### WORK EXPERIENCE
+
 ---
     2018 — Present
-**Судебный эксперт/специалист**
+**Forensic expert/specialist**
 *Center for Independent Expertise and Law / Kemerovo*
 
 Conducting pre-trial and judicial research by type:
@@ -69,7 +75,9 @@ Created and administered the service center website: <https://devicerussia.ru>.
 *Municipal Property Management Committee / Kemerovo*
 
 ---
+
 ### EDUCATION
+
 ---
 **Open Academy of Professional Education**, *2021*
 Judicial construction and technical and cost expertise of real estate objects,
@@ -83,6 +91,7 @@ Commodity research and examination of goods (by application),
 Economics and management at the enterprise (in mechanical engineering),
 **Specialty: Engineer-economist**
 
-#### Languages:
+#### Languages
+
 Russian - C2, English - A2, German - B1
-___
+
